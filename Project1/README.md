@@ -62,12 +62,20 @@ The objective of this project was to analyze data between CO2 Emissions per MWh 
    3. **Converted** all units to the necessary form. 
 
        - British Thermal Units (btu) to Megawattshour (MWh)
-   4. **Aggregated** the data using the SUM function for all energy resources.
-   5. **Grouped** the data:
+   4. **Aggregated** the data using the SUM and AVG function for all energy resources.
+  
+       - sum function was used to find the total of all energy resources
+     
+       - avg function was used to find the average of CO2 emissions per MWh of generation
+      
+   6. **Grouped** the data:
 
        - by year to give me the sums of energy production for all states every year.
           
        - by year and state to give me the sums of energy production for each state and year.
+     
+       - by year to give me the average of CO2 emissions each year.
+     
    7. **Imported** my tables to Tableau to begin creating Visualizations.
    8. **Created** a dashboard to showcase:
 
@@ -79,7 +87,19 @@ The objective of this project was to analyze data between CO2 Emissions per MWh 
 
 ## Results
    
+Analysis helped identify an overall decrease in average CO2 emissions per MWh of electricity generation across all 50 states between 2013-2022. This indicates that we are supplying our increased energy needs with cleaner resources. This is strongly due to a transition in global standards to reduce our carbon footprint. Industries, like renewables, have played a bigger role in our energy supply, while overall coal reliance has been on the downfall.
 
+Some key findings include:
+  
+  1. Nuclear Energy is still a key contributor to the overall energy needs in the U.S., accounting for roughly 10%.
+
+     - States like Illinois and Virginia mainly rely on nuclear energy as their primary energy source.
+  2. Minimum and Maximum States for CO2 Emissions per MWh of Generation:
+       
+       - Vermont was identified as the state with the lowest CO2 Emission across all years of analysis, mainly due to its energy generation solely from renewables.
+       - Wyoming was identified as the state with the highest CO2 Emission across all years of anaylsis, due to its energy generation mainly from coal (71%).
+    
+    3. On Average the U.S. has decreased its CO2 emissions per MWh of generation by 28% over the last 10 years (2013-2023).
 
 ## Files
 
