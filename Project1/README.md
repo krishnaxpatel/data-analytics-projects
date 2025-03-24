@@ -2,7 +2,7 @@
 
 ## Objective
 
-The objective of this project was to analyze data between CO2 Emissions per MWh Generation and Energy Source Production throughout 2013-2022 in the United States.  
+The objective of this project was to analyze data between CO2 Emissions per MWh Generation and Energy Source Production throughout 2013-2023 in the United States.  
 
 
 **Data Preprocessing & Processing**
@@ -87,7 +87,7 @@ The objective of this project was to analyze data between CO2 Emissions per MWh 
 
 ## Results
    
-Analysis helped identify an overall decrease in average CO2 emissions per MWh of electricity generation across all 50 states between 2013-2022. This indicates that we are supplying our increased energy needs with cleaner resources. This is strongly due to a transition in global standards to reduce our carbon footprint. Industries, like renewables, have played a bigger role in our energy supply, while overall coal reliance has been on the downfall.
+Analysis helped identify an overall decrease in average CO2 emissions per MWh of electricity generation across all 50 states between 2013-2023. This indicates that we are supplying our increased energy needs with cleaner resources. This is strongly due to a transition in global standards to reduce our carbon footprint. Industries, like renewables, have played a bigger role in our energy supply, while overall coal reliance has been on the downfall.
 
 Some key findings include:
   
@@ -98,8 +98,8 @@ Some key findings include:
        
        - Vermont was identified as the state with the lowest CO2 Emission across all years of analysis, mainly due to its energy generation solely from renewables.
        - Wyoming was identified as the state with the highest CO2 Emission across all years of anaylsis, due to its energy generation mainly from coal (71%).
-    
-    3. On Average the U.S. has decreased its CO2 emissions per MWh of generation by 28% over the last 10 years (2013-2023).
+  
+  3. On Average the U.S. has decreased its CO2 emissions per MWh of generation by 28% over the last 10 years (2013-2023).
 
 ## Files
 
@@ -108,3 +108,10 @@ Some key findings include:
 
 ## Conclusion
 
+Between 2013 and 2022, the U.S. demonstrated a significant 28% reduction in average CO2 emissions per MWh of electricity generation, driven by a shift towards cleaner energy sources. While nuclear power remains a key contributor, states like Vermont, relying solely on renewables, achieved the lowest emissions, contrasting sharply with coal-dependent Wyoming's high emissions. This trend reflects a broader global movement towards decarbonization, with renewables gaining prominence and coal declining.
+
+
+**Further Data Exploration**
+
+1. Next steps in the project would have been diving deeper into AI and its energy demands.
+  - The use of AI is increasing exponentially and so the demand for 
