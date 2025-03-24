@@ -4,44 +4,87 @@
 
 The objective of this project was to analyze data between CO2 Emissions per MWh Generation and Energy Source Production throughout 2013-2022 in the United States.  
 
-1. **Data Preprocessing**:
-   Datasets:
-    1. Kg of Carbon Emissions: https://www.eia.gov/electricity/data/emissions/
 
-    2. Carbon Emissions (million metric tons): https://www.eia.gov/environment/emissions/state/
+**Data Preprocessing & Processing**
+  
+    Datasets:
+     
+    Kg of Carbon Emissions: https://www.eia.gov/electricity/data/emissions/
 
-    3. Energy Production (renewables & total energy, fossil fuels & nuclear): https://www.eia.gov/state/seds/seds-data- 
-       complete.php#Production
+    Carbon Emissions (million metric tons): https://www.eia.gov/environment/emissions/state/
+
+    Energy Production: https://www.eia.gov/state/seds/seds-data-complete.php#Production
     
     Tools Used: Spreadsheets, R, SQl
  1. Kg of Carbon Emissions: https://www.eia.gov/electricity/data/emissions/
       
-      - Downloaded all relevant datasets (`Project1/data/`).
-      - Cleared Formatting.
-      - Cleaned the dataset by handling missing values, trimmed whitespaces, removed irrelevant data and outliers.
-      - Merged datasets from years 2013-2023 using R (`Project1/notebook/`)
-      - Formatted data from wide to long for all years and states using tidyr in R (`Project1/notebook/`)
-      - Exported the table to spreadsheets to delete irrelevant added columns.
-      - Exported final table to SQL. 
+      - **Downloaded** all relevant datasets (`Project1/data/`).
+      - **Cleared** Formatting.
+      - **Cleaned** the dataset by handling missing values, trimmed whitespaces, removed irrelevant data and outliers.
+      - **Merged** datasets from years 2013-2023 using dyplr R (`Project1/notebook/`)
+      - **Formatted** data from wide to long for all years and states using tidyr in R (`Project1/notebook/`)
+      - **Exported** the table to spreadsheets to delete irrelevant added columns.
 
-3. **Data Processing**:
-   1. Created the dataset and tables needed to make my future analysis.
-   2. Converted British Thermal Units (btu) to Megawattshour (MWh) **add code**
-   3. Selected 
-   4. 
+    Data now ready for use!
+ 
+ 2. Carbon Emissions (million metric tons): https://www.eia.gov/environment/emissions/state/
+    Data Limitations: Only had data up until 2022. Could not perform 2023 calculations because of this. 
+     
+      - **Downloaded** dataset.
+      - **Cleared** Formatting.
+      - **Cleaned** the dataset by handling missing values, trimmed whitespaces, removed irrelevant data and outliers.
+           - for this particular dataset I removed the data for 1970-2012 as it wasn't needed for my analysis.
+      - **Converted** from wide to long format using R (`Project1/notebook/`)
+    
+    Data now ready for use!
+ 
+  3. Energy Production (renewables & total energy, fossil fuels & nuclear): https://www.eia.gov/state/seds/seds-data- 
+       complete.php#Production
+      - **Downloaded** datasets in btu (renewables & total energy, fossil fuels & nuclear).
+      - **Cleared** Formatting.
+      - **Cleaned** the dataset by handling missing values, trimmed whitespaces, removed irrelevant data and outliers.
+      - **Converted** from wide to long format using R (`Project1/notebook/`)
 
-4. **Analysis**:
+         - created a generic code to help me with formatting that I can use for all the data in this step.
+      - **Created** a new spreadsheet and merged all data into one with column names.
+
+      Data now ready for use!
+
+ 
+  
+   **Analysis**:
    
+   Tools Used: SQL & Tableau
+
+   1. **Created** the generic dataset for the analysis using SQL.
+
+       - created a table for Energy Production.
+   3. **Converted** all units to the necessary form. 
+
+       - British Thermal Units (btu) to Megawattshour (MWh)
+   4. **Aggregated** the data using the SUM function for all energy resources.
+   5. **Grouped** the data:
+
+       - by year to give me the sums of energy production for all states every year.
+          
+       - by year and state to give me the sums of energy production for each state and year.
+   7. **Imported** my tables to Tableau to begin creating Visualizations.
+   8. **Created** a dashboard to showcase:
+
+       - CO2 emissions over time for the past 10 years by each state.
+
+       - Total Energy Resource Distribution by state.
+
+       - CO2 Emissions and Energy Resource Distribution
 
 ## Results
-
+   
 
 
 ## Files
 
 - `data/`: Contains the dataset used for the analysis.
 - `notebooks/`: Jupyter notebooks with code and analysis.
-- `src/`: Source code for data preprocessing and clustering.
 
 ## Conclusion
 
