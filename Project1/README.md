@@ -5,10 +5,15 @@
 The objective of this project was to analyze data between CO2 Emissions per MWh Generation and Energy Source Production throughout 2013-2022 in the United States.  
 
 1. **Data Preprocessing**:
-   Datasets: 1. Kg of Carbon Emissions: https://www.eia.gov/electricity/data/emissions/
-             2. Carbon Emissions (million metric tons): https://www.eia.gov/environment/emissions/state/
-             3. Energy Production (renewables & total energy, fossil fuels & nuclear): https://www.eia.gov/state/seds/seds-data-complete.php#Production
-   Tools Used: Spreadsheets, R, SQl
+   Datasets:
+    1. Kg of Carbon Emissions: https://www.eia.gov/electricity/data/emissions/
+
+    2. Carbon Emissions (million metric tons): https://www.eia.gov/environment/emissions/state/
+
+    3. Energy Production (renewables & total energy, fossil fuels & nuclear): https://www.eia.gov/state/seds/seds-data-complete.php#Production
+    
+    Tools Used: Spreadsheets, R, SQl
+   
    1. Downloaded all relevant datasets.
    2. Cleared Formatting. 
    3. Cleaned the dataset by handling missing values, trimmed whitespaces, removed irrelevant data and outliers.
