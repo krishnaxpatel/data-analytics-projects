@@ -16,11 +16,11 @@ The objective of this project was to analyze data between CO2 Emissions per MWh 
     Tools Used: Spreadsheets, R, SQl
  1. Kg of Carbon Emissions: https://www.eia.gov/electricity/data/emissions/
       
-      - Downloaded all relevant datasets (`Project1/data`).
+      - Downloaded all relevant datasets (`Project1/data/`).
       - Cleared Formatting.
       - Cleaned the dataset by handling missing values, trimmed whitespaces, removed irrelevant data and outliers.
-      - Merged datasets from years 2013-2023 using R (`notebook/`)
-      - Formatted data from wide to long for all years and states using tidyr in R (`notebook/`)
+      - Merged datasets from years 2013-2023 using R (`Project1/notebook/`)
+      - Formatted data from wide to long for all years and states using tidyr in R (`Project1/notebook/`)
       - Exported the table to spreadsheets to delete irrelevant added columns.
       - Exported final table to SQL. 
 
