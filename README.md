@@ -5,10 +5,10 @@ Welcome to my data analytics portfolio! Here you will find some of the projects 
 ## Projects
 
 ### [Project 1: Energy Analysis](./Project1)
-In this project, I performed an analysis on CO2 emissions, energy production, and energy resource distribution in the United States between 2013-2022. The tools used: SQL, Spreadsheets, & Tableau. 
+In this project, I performed an analysis on CO2 emissions, energy production, and energy resource distribution in the United States between 2013-2022. The tools used: SQL, R, Spreadsheets, & Tableau. 
 
 ### [Project 2: Sleep & Health](./Project2)
-This project involved analyzing the trends between sleep and health. The analysis was done using SQL, Spreadsheets, R & Tableau. 
+This project involved analyzing the trends between sleep and health. The analysis was done using SQL, Spreadsheets & Tableau. 
 
 ## About Me
 
