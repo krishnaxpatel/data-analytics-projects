@@ -1,0 +1,562 @@
+state,year,kilograms_of_co2_per_mwh
+connecticut,2013,245
+connecticut,2014,251
+connecticut,2015,241
+connecticut,2016,235
+connecticut,2017,228
+connecticut,2018,243
+connecticut,2019,238
+connecticut,2020,247
+connecticut,2021,248
+connecticut,2022,250
+connecticut,2023,262
+maine,2013,262
+maine,2014,257
+maine,2015,252
+maine,2016,222
+maine,2017,186
+maine,2018,195
+maine,2019,174
+maine,2020,182
+maine,2021,210
+maine,2022,219
+maine,2023,195
+massachusetts,2013,448
+massachusetts,2014,415
+massachusetts,2015,418
+massachusetts,2016,398
+massachusetts,2017,385
+massachusetts,2018,367
+massachusetts,2019,396
+massachusetts,2020,437
+massachusetts,2021,431
+massachusetts,2022,433
+massachusetts,2023,420
+new hampshire,2013,174
+new hampshire,2014,177
+new hampshire,2015,183
+new hampshire,2016,131
+new hampshire,2017,113
+new hampshire,2018,128
+new hampshire,2019,108
+new hampshire,2020,106
+new hampshire,2021,131
+new hampshire,2022,136
+new hampshire,2023,122
+rhode island,2013,454
+rhode island,2014,408
+rhode island,2015,414
+rhode island,2016,407
+rhode island,2017,391
+rhode island,2018,400
+rhode island,2019,393
+rhode island,2020,377
+rhode island,2021,382
+rhode island,2022,377
+rhode island,2023,385
+vermont,2013,2
+vermont,2014,2
+vermont,2015,6
+vermont,2016,6
+vermont,2017,7
+vermont,2018,5
+vermont,2019,3
+vermont,2020,4
+vermont,2021,5
+vermont,2022,6
+vermont,2023,4
+new jersey,2013,244
+new jersey,2014,270
+new jersey,2015,260
+new jersey,2016,272
+new jersey,2017,240
+new jersey,2018,252
+new jersey,2019,266
+new jersey,2020,244
+new jersey,2021,241
+new jersey,2022,244
+new jersey,2023,235
+new york,2013,246
+new york,2014,248
+new york,2015,236
+new york,2016,233
+new york,2017,200
+new york,2018,211
+new york,2019,188
+new york,2020,207
+new york,2021,227
+new york,2022,246
+new york,2023,237
+pennsylvania,2013,479
+pennsylvania,2014,462
+pennsylvania,2015,424
+pennsylvania,2016,395
+pennsylvania,2017,371
+pennsylvania,2018,358
+pennsylvania,2019,338
+pennsylvania,2020,314
+pennsylvania,2021,331
+pennsylvania,2022,324
+pennsylvania,2023,298
+illinois,2013,482
+illinois,2014,478
+illinois,2015,435
+illinois,2016,385
+illinois,2017,385
+illinois,2018,384
+illinois,2019,342
+illinois,2020,274
+illinois,2021,315
+illinois,2022,290
+illinois,2023,237
+indiana,2013,905
+indiana,2014,907
+indiana,2015,856
+indiana,2016,839
+indiana,2017,828
+indiana,2018,807
+indiana,2019,759
+indiana,2020,720
+indiana,2021,748
+indiana,2022,719
+indiana,2023,680
+michigan,2013,637
+michigan,2014,602
+michigan,2015,594
+michigan,2016,523
+michigan,2017,520
+michigan,2018,530
+michigan,2019,490
+michigan,2020,499
+michigan,2021,477
+michigan,2022,498
+michigan,2023,415
+ohio,2013,746
+ohio,2014,734
+ohio,2015,687
+ohio,2016,686
+ohio,2017,668
+ohio,2018,619
+ohio,2019,568
+ohio,2020,556
+ohio,2021,548
+ohio,2022,528
+ohio,2023,475
+wisconsin,2013,723
+wisconsin,2014,717
+wisconsin,2015,681
+wisconsin,2016,630
+wisconsin,2017,659
+wisconsin,2018,634
+wisconsin,2019,560
+wisconsin,2020,540
+wisconsin,2021,566
+wisconsin,2022,538
+wisconsin,2023,522
+iowa,2013,691
+iowa,2014,691
+iowa,2015,618
+iowa,2016,556
+iowa,2017,529
+iowa,2018,540
+iowa,2019,470
+iowa,2020,354
+iowa,2021,430
+iowa,2022,358
+iowa,2023,352
+kansas,2013,683
+kansas,2014,639
+kansas,2015,601
+kansas,2016,541
+kansas,2017,437
+kansas,2018,459
+kansas,2019,410
+kansas,2020,373
+kansas,2021,402
+kansas,2022,384
+kansas,2023,347
+minnesota,2013,570
+minnesota,2014,573
+minnesota,2015,532
+minnesota,2016,498
+minnesota,2017,482
+minnesota,2018,484
+minnesota,2019,426
+minnesota,2020,371
+minnesota,2021,392
+minnesota,2022,379
+minnesota,2023,364
+missouri,2013,855
+missouri,2014,862
+missouri,2015,813
+missouri,2016,798
+missouri,2017,811
+missouri,2018,806
+missouri,2019,735
+missouri,2020,746
+missouri,2021,775
+missouri,2022,720
+missouri,2023,688
+nebraska,2013,756
+nebraska,2014,668
+nebraska,2015,635
+nebraska,2016,630
+nebraska,2017,630
+nebraska,2018,690
+nebraska,2019,634
+nebraska,2020,569
+nebraska,2021,561
+nebraska,2022,545
+nebraska,2023,501
+north dakota,2013,864
+north dakota,2014,834
+north dakota,2015,841
+north dakota,2016,790
+north dakota,2017,724
+north dakota,2018,734
+north dakota,2019,697
+north dakota,2020,650
+north dakota,2021,641
+north dakota,2022,649
+north dakota,2023,643
+south dakota,2013,319
+south dakota,2014,281
+south dakota,2015,202
+south dakota,2016,232
+south dakota,2017,229
+south dakota,2018,231
+south dakota,2019,227
+south dakota,2020,167
+south dakota,2021,145
+south dakota,2022,158
+south dakota,2023,168
+delaware,2013,608
+delaware,2014,555
+delaware,2015,524
+delaware,2016,500
+delaware,2017,484
+delaware,2018,512
+delaware,2019,504
+delaware,2020,512
+delaware,2021,572
+delaware,2022,505
+delaware,2023,498
+district of columbia,2013,740
+district of columbia,2014,716
+district of columbia,2015,662
+district of columbia,2016,622
+district of columbia,2017,553
+district of columbia,2018,540
+district of columbia,2019,633
+district of columbia,2020,535
+district of columbia,2021,532
+district of columbia,2022,397
+district of columbia,2023,426
+florida,2013,489
+florida,2014,492
+florida,2015,471
+florida,2016,463
+florida,2017,451
+florida,2018,433
+florida,2019,403
+florida,2020,386
+florida,2021,391
+florida,2022,377
+florida,2023,361
+georgia,2013,470
+georgia,2014,497
+georgia,2015,460
+georgia,2016,451
+georgia,2017,430
+georgia,2018,424
+georgia,2019,397
+georgia,2020,332
+georgia,2021,351
+georgia,2022,346
+georgia,2023,333
+maryland,2013,529
+maryland,2014,547
+maryland,2015,504
+maryland,2016,500
+maryland,2017,392
+maryland,2018,407
+maryland,2019,333
+maryland,2020,284
+maryland,2021,315
+maryland,2022,303
+maryland,2023,254
+north carolina,2013,452
+north carolina,2014,457
+north carolina,2015,419
+north carolina,2016,401
+north carolina,2017,379
+north carolina,2018,370
+north carolina,2019,361
+north carolina,2020,309
+north carolina,2021,317
+north carolina,2022,307
+north carolina,2023,291
+south carolina,2013,302
+south carolina,2014,341
+south carolina,2015,309
+south carolina,2016,289
+south carolina,2017,272
+south carolina,2018,291
+south carolina,2019,251
+south carolina,2020,234
+south carolina,2021,256
+south carolina,2022,252
+south carolina,2023,254
+virginia,2013,451
+virginia,2014,437
+virginia,2015,413
+virginia,2016,395
+virginia,2017,345
+virginia,2018,351
+virginia,2019,309
+virginia,2020,309
+virginia,2021,295
+virginia,2022,292
+virginia,2023,270
+west virginia,2013,908
+west virginia,2014,908
+west virginia,2015,917
+west virginia,2016,902
+west virginia,2017,886
+west virginia,2018,895
+west virginia,2019,889
+west virginia,2020,874
+west virginia,2021,879
+west virginia,2022,889
+west virginia,2023,875
+alabama,2013,445
+alabama,2014,453
+alabama,2015,423
+alabama,2016,406
+alabama,2017,380
+alabama,2018,387
+alabama,2019,356
+alabama,2020,326
+alabama,2021,348
+alabama,2022,361
+alabama,2023,330
+kentucky,2013,951
+kentucky,2014,944
+kentucky,2015,915
+kentucky,2016,902
+kentucky,2017,864
+kentucky,2018,841
+kentucky,2019,819
+kentucky,2020,783
+kentucky,2021,803
+kentucky,2022,796
+kentucky,2023,792
+mississippi,2013,429
+mississippi,2014,436
+mississippi,2015,389
+mississippi,2016,418
+mississippi,2017,404
+mississippi,2018,412
+mississippi,2019,379
+mississippi,2020,402
+mississippi,2021,378
+mississippi,2022,403
+mississippi,2023,372
+tennessee,2013,479
+tennessee,2014,521
+tennessee,2015,505
+tennessee,2016,503
+tennessee,2017,453
+tennessee,2018,359
+tennessee,2019,332
+tennessee,2020,283
+tennessee,2021,343
+tennessee,2022,341
+tennessee,2023,325
+arkansas,2013,619
+arkansas,2014,605
+arkansas,2015,515
+arkansas,2016,525
+arkansas,2017,548
+arkansas,2018,594
+arkansas,2019,505
+arkansas,2020,430
+arkansas,2021,484
+arkansas,2022,475
+arkansas,2023,449
+louisiana,2013,571
+louisiana,2014,548
+louisiana,2015,522
+louisiana,2016,496
+louisiana,2017,511
+louisiana,2018,497
+louisiana,2019,480
+louisiana,2020,441
+louisiana,2021,465
+louisiana,2022,457
+louisiana,2023,439
+oklahoma,2013,628
+oklahoma,2014,628
+oklahoma,2015,547
+oklahoma,2016,472
+oklahoma,2017,438
+oklahoma,2018,400
+oklahoma,2019,331
+oklahoma,2020,314
+oklahoma,2021,344
+oklahoma,2022,314
+oklahoma,2023,295
+texas,2013,594
+texas,2014,582
+texas,2015,541
+texas,2016,521
+texas,2017,530
+texas,2018,482
+texas,2019,450
+texas,2020,428
+texas,2021,428
+texas,2022,406
+texas,2023,389
+arizona,2013,488
+arizona,2014,478
+arizona,2015,444
+arizona,2016,409
+arizona,2017,413
+arizona,2018,418
+arizona,2019,384
+arizona,2020,327
+arizona,2021,316
+arizona,2022,315
+arizona,2023,311
+colorado,2013,744
+colorado,2014,714
+colorado,2015,714
+colorado,2016,663
+colorado,2017,663
+colorado,2018,627
+colorado,2019,602
+colorado,2020,537
+colorado,2021,548
+colorado,2022,512
+colorado,2023,479
+idaho,2013,128
+idaho,2014,98
+idaho,2015,119
+idaho,2016,117
+idaho,2017,102
+idaho,2018,97
+idaho,2019,125
+idaho,2020,126
+idaho,2021,153
+idaho,2022,141
+idaho,2023,168
+montana,2013,612
+montana,2014,584
+montana,2015,619
+montana,2016,593
+montana,2017,564
+montana,2018,554
+montana,2019,588
+montana,2020,446
+montana,2021,512
+montana,2022,504
+montana,2023,512
+nevada,2013,431
+nevada,2014,451
+nevada,2015,378
+nevada,2016,365
+nevada,2017,345
+nevada,2018,353
+nevada,2019,349
+nevada,2020,333
+nevada,2021,333
+nevada,2022,317
+nevada,2023,297
+new mexico,2013,795
+new mexico,2014,765
+new mexico,2015,760
+new mexico,2016,705
+new mexico,2017,685
+new mexico,2018,564
+new mexico,2019,580
+new mexico,2020,547
+new mexico,2021,489
+new mexico,2022,443
+new mexico,2023,345
+utah,2013,840
+utah,2014,804
+utah,2015,803
+utah,2016,741
+utah,2017,740
+utah,2018,725
+utah,2019,724
+utah,2020,709
+utah,2021,698
+utah,2022,667
+utah,2023,616
+wyoming,2013,966
+wyoming,2014,953
+wyoming,2015,970
+wyoming,2016,947
+wyoming,2017,947
+wyoming,2018,954
+wyoming,2019,930
+wyoming,2020,894
+wyoming,2021,844
+wyoming,2022,833
+wyoming,2023,847
+california,2013,287
+california,2014,289
+california,2015,282
+california,2016,239
+california,2017,216
+california,2018,223
+california,2019,203
+california,2020,225
+california,2021,229
+california,2022,219
+california,2023,200
+oregon,2013,159
+oregon,2014,139
+oregon,2015,155
+oregon,2016,136
+oregon,2017,127
+oregon,2018,137
+oregon,2019,177
+oregon,2020,147
+oregon,2021,143
+oregon,2022,128
+oregon,2023,156
+washington,2013,110
+washington,2014,107
+washington,2015,106
+washington,2016,90
+washington,2017,95
+washington,2018,91
+washington,2019,137
+washington,2020,103
+washington,2021,100
+washington,2022,92
+washington,2023,133
+alaska,2013,580
+alaska,2014,589
+alaska,2015,585
+alaska,2016,547
+alaska,2017,544
+alaska,2018,543
+alaska,2019,572
+alaska,2020,551
+alaska,2021,539
+alaska,2022,537
+alaska,2023,537
+hawaii,2013,723
+hawaii,2014,730
+hawaii,2015,727
+hawaii,2016,729
+hawaii,2017,726
+hawaii,2018,735
+hawaii,2019,753
+hawaii,2020,707
+hawaii,2021,700
+hawaii,2022,688
+hawaii,2023,656
