@@ -10,15 +10,19 @@ The objective of this project was to analyze data between CO2 Emissions per MWh 
 
     2. Carbon Emissions (million metric tons): https://www.eia.gov/environment/emissions/state/
 
-    3. Energy Production (renewables & total energy, fossil fuels & nuclear): https://www.eia.gov/state/seds/seds-data-complete.php#Production
+    3. Energy Production (renewables & total energy, fossil fuels & nuclear): https://www.eia.gov/state/seds/seds-data- 
+       complete.php#Production
     
     Tools Used: Spreadsheets, R, SQl
-   
-   1. Downloaded all relevant datasets.
-   2. Cleared Formatting. 
-   3. Cleaned the dataset by handling missing values, trimmed whitespaces, removed irrelevant data and outliers.
-   4. Formatted data from wide to long for all years and states using tidyr in R **(add code)**
-   5. Exported the table to use in SQL. 
+ 1. Kg of Carbon Emissions: https://www.eia.gov/electricity/data/emissions/
+      
+      - Downloaded all relevant datasets (`data/`).
+      - Cleared Formatting.
+      - Cleaned the dataset by handling missing values, trimmed whitespaces, removed irrelevant data and outliers.
+      - Merged datasets from years 2013-2023 using R (`notebook/`)
+      - Formatted data from wide to long for all years and states using tidyr in R (`notebook/`)
+      - Exported the table to spreadsheets to delete irrelevant added columns.
+      - Exported final table to SQL. 
 
 3. **Data Processing**:
    1. Created the dataset and tables needed to make my future analysis.
