@@ -16,7 +16,7 @@ The objective of this project was to analyze data between CO2 Emissions per MWh 
     Tools Used: Spreadsheets, R, SQl
  1. Kg of Carbon Emissions: https://www.eia.gov/electricity/data/emissions/
       
-      - Downloaded all relevant datasets (`data/`).
+      - Downloaded all relevant datasets (`Project1/data`).
       - Cleared Formatting.
       - Cleaned the dataset by handling missing values, trimmed whitespaces, removed irrelevant data and outliers.
       - Merged datasets from years 2013-2023 using R (`notebook/`)
