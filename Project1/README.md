@@ -113,5 +113,12 @@ Between 2013 and 2022, the U.S. demonstrated a significant 28% reduction in aver
 
 **Further Data Exploration**
 
-1. Next steps in the project would have been diving deeper into AI and its energy demands.
-  - The use of AI is increasing exponentially and so the demand for 
+1. Next steps in the project would have been analyzing data in the sectors, such as Residential, Commercial, Industrial & Transportation. This would have led to identifying key contributors for CO2 emissions and honing in on cleaner energy alternatives industries are taking to reduce their carbon footprint.
+
+2. Diving deeper into AI and its energy demands.
+ 
+  - The use of AI is increasing and so are its energy needs. The AI industry is quickly becoming the largest energy consumer on the global scale. Larger companies are looking for energy alternatives, that are both reliable and sustainable to power the AI data centers. These alternatives the companies are pioneering for, include investing in renewables and being big proponents for nuclear.
+
+  - Data analysis could lead to looking into companies who are powering AI and where their energy is coming from. This could help identify if companies are maintaining their carbon objectives.
+  
+  - Data analysis could also lead to forecasting the next 30 years of AI consumption and needed energy production. 
