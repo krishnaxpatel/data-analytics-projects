@@ -12,6 +12,6 @@ This project involved analyzing the trends between sleep and health. The analysi
 
 ## About Me
 
-I am a process enginner and data analyst with a passion for uncovering insights from data and solving complex problems. I have experience in various data analytics tools and techniques, including SQL, Tableau, & R.
+I am a process engineer and data analyst with a passion for uncovering insights from data and solving complex problems. I have experience in various data analytics tools and techniques, including SQL, Tableau, & R.
 
 Feel free to explore the projects and reach out if you have any questions or collaboration opportunities!
