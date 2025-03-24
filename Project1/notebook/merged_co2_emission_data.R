@@ -1,5 +1,8 @@
-# Install and load necessary libraries
-# install.packages
+# set up environment - Install and load necessary libraries
+install.packages ("tidyverse")
+install.packages ("dplyr")
+install.packages ("tidyr")
+library(tidyverse)
 library(dplyr)
 library(tidyr)
 
@@ -29,16 +32,16 @@ for (i in 2:length(years)) {
 # Extract state from "Census Division and State" and remove "Year"
 co2_emissions_by_year <- co2_emissions_by_year %>%
   mutate(State = gsub("^.* ", "", Census.Division.and.State)) %>%
-  select(-Census.Division.and.State, -Year) # Remove "Year" column here
+  select(-Census.Division.and.State, -Year) # Removed the year column here
 
-# Pivot the data into long format
+# Format to long with all years
 long_data <- co2_emissions_by_year %>%
   pivot_longer(
     cols = starts_with("CO2_"),
     names_to = "Year",
     values_to = "Kilograms of Co2 per MWh"
   ) %>%
-  mutate(Year = gsub("CO2_", "", Year)) # Remove "CO2_" prefix
+  mutate(Year = gsub("CO2_", "", Year)) 
 
 # Display the long format data
 print(long_data)
