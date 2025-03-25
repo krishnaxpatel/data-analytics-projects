@@ -5,7 +5,7 @@
 The objective of this project was to analyze data between CO2 Emissions per MWh Generation and Energy Source Production throughout 2013-2023 in the United States.  
 
 
-**Data Preprocessing & Processing**
+### **Data Preprocessing & Processing**
   
     Datasets:
      
@@ -17,10 +17,15 @@ The objective of this project was to analyze data between CO2 Emissions per MWh 
     
     Tools Used: Spreadsheets, R, SQl
 
-
+   
+    **Workflow** for my data validation steps:
+    
+    
+    ![Alt text](other/Workflow for Data Validation.png)
+    
  
   
-   **Analysis**:
+   ### **Analysis**:
    
    Tools Used: SQL & Tableau
 
@@ -53,7 +58,7 @@ The objective of this project was to analyze data between CO2 Emissions per MWh 
 
        - CO2 Emissions and Energy Resource Distribution
 
-## Results
+### Results
    
 Analysis helped identify an overall decrease in average CO2 emissions per MWh of electricity generation across all 50 states between 2013-2023. This indicates that we are supplying our increased energy needs with cleaner resources. This is strongly due to a transition in global standards to reduce our carbon footprint. Industries, like renewables, have played a bigger role in our energy supply, while overall coal reliance has been on the downfall.
 
@@ -74,18 +79,19 @@ Some key findings include:
 - `data/`: Contains the dataset used for the analysis.
 - `notebooks/`: Jupyter notebooks with code and analysis.
 
-## Conclusion
+### Conclusion
 
 Between 2013 and 2022, the U.S. demonstrated a significant 28% reduction in average CO2 emissions per MWh of electricity generation, driven by a shift towards cleaner energy sources. While nuclear power remains a key contributor, states like Vermont, relying solely on renewables, achieved the lowest emissions, contrasting sharply with coal-dependent Wyoming's high emissions. This trend reflects a broader global movement towards decarbonization, with renewables gaining prominence and coal declining.
 
 
-**Further Data Exploration**
+### **Further Data Exploration**
 
 1. Next steps in the project would have been analyzing data in the sectors, such as Residential, Commercial, Industrial & Transportation. This would have led to identifying key contributors for CO2 emissions and honing in on cleaner energy alternatives industries are taking to reduce their carbon footprint.
 
 2. Diving deeper into AI and its energy demands.
  
-  - The use of AI is increasing and so are its energy needs. The AI industry is quickly becoming the largest energy consumer on the global scale. Larger companies are looking for energy alternatives, that are both reliable and sustainable to power the AI data centers. These alternatives the companies are pioneering for, include investing in renewables and being big proponents for nuclear.
+  - The use of AI is increasing and so are its energy needs. The AI industry is quickly becoming the largest energy consumer on the global scale. Larger companies are looking for energy alternatives, that are both reliable 
+    and sustainable to power the AI data centers. These alternatives the companies are pioneering for, include investing in renewables and being big proponents for nuclear.
 
   - Data analysis could lead to looking into companies who are powering AI and where their energy is coming from. This could help identify if companies are maintaining their carbon objectives.
   
