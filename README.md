@@ -1,6 +1,6 @@
 Data Analytics Portfolio
 
-Welcome to my data analytics portfolio! Here you will find some of the projects I have worked on that showcase my skills in data analytics & statistical modeling!
+Welcome to my data analytics portfolio! Here you will find some of the projects I have worked on that showcase my skills in data analytics & data visualizations.
 
 ## Projects
 
