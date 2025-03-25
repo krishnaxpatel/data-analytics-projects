@@ -108,7 +108,7 @@ All the Energy Production files were exported and merged in a spreadsheet.
   ![SQL Results](images/results_by_year.PNG)  
 
 
-  This gives the average emission per year to find the percentage change of Kg of CO2 per MWh between 2013 to 2023, which was calculated to be 28%. 
+  This gives the average emission per year to find the percentage change of Kg of CO2 per MWh between 2013 to 2023. 
   
   ![average emission](images/average_emission.PNG)
    
@@ -128,6 +128,8 @@ All the Energy Production files were exported and merged in a spreadsheet.
        - CO2 Emissions and Energy Resource Distribution
          
 [View my Tableau Dashboard Here!](https://public.tableau.com/views/EnergyEmissions_17426711319470/EnergyEmissions?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+
 ### Results
    
 Analysis helped identify an overall decrease in average CO2 emissions per MWh of electricity generation across all 50 states between 2013-2023. This indicates that we are supplying our increased energy needs with cleaner resources. This is strongly due to a transition in global standards to reduce our carbon footprint. Industries, like renewables, have played a bigger role in our energy supply, while overall coal reliance has been on the downfall.
@@ -136,6 +138,9 @@ Some key findings include:
   
   1. Nuclear Energy is still a key contributor to the overall energy needs in the U.S., accounting for roughly 10%.
 
+![Overall Energy Production from Various Sources](images/nuclear_energy_percentage.PNG)
+    
+     
      - States like Illinois and Virginia mainly rely on nuclear energy as their primary energy source.
     
       
@@ -149,11 +154,13 @@ Some key findings include:
 ## Files
 
 - `data/`: Contains the dataset used for the analysis.
-- `notebooks/`: Jupyter notebooks with code and analysis.
+
 
 ### Conclusion
 
+
 Between 2013 and 2022, the U.S. demonstrated a significant 28% reduction in average CO2 emissions per MWh of electricity generation, driven by a shift towards cleaner energy sources. While nuclear power remains a key contributor, states like Vermont, relying solely on renewables, achieved the lowest emissions, contrasting sharply with coal-dependent Wyoming's high emissions. This trend reflects a broader global movement towards decarbonization, with renewables gaining prominence and coal declining.
+
 
 
 ### **Further Data Exploration**
