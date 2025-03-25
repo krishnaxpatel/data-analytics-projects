@@ -138,27 +138,35 @@ Some key findings include:
   
   1. Nuclear Energy is still a key contributor to the overall energy needs in the U.S., accounting for roughly 10%.
 
-![Overall Energy Production from Various Sources](images/nuclear_energy_percentage.PNG)
+  ![Overall Energy Production from Various Sources](images/nuclear_energy_percentage.PNG)
     
      
    - States like Illinois and Virginia mainly rely on nuclear energy as their primary energy source.
+  
+   
    **Illinois**
 
     
-   ![Energy Production in Illinois](images/illinois_nuclear_energy.PNG)
+   ![Nuclear Energy Production in Illinois](images/illinois_nuclear_energy.PNG)
 
 
   **Virginia**
 
-
+   ![Nuclear Energy Production in Virginia](images/virginia_nuclear_energy.PNG)
   
    
   2. Minimum and Maximum States for CO2 Emissions per MWh of Generation:
        
-       - Vermont was identified as the state with the lowest CO2 Emission across all years of analysis, mainly due to its energy generation solely from renewables.
-       - Wyoming was identified as the state with the highest CO2 Emission across all years of anaylsis, due to its energy generation mainly from coal (71%).
+      - Vermont was identified as the state with the lowest CO2 Emission across all years of analysis, mainly due to its energy generation solely from renewables.
+      
+      - Wyoming was identified as the state with the highest CO2 Emission across all years of anaylsis, due to its energy generation mainly from coal (71%).
+
+  ![Minimum and Maximum CO2 Emissions per MWh of Generation](images/min_and_max.PNG)
+
   
   3. On Average the U.S. has decreased its CO2 emissions per MWh of generation by 28% over the last 10 years (2013-2023).
+
+
 
 ## Files
 
