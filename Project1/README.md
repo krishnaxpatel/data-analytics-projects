@@ -166,6 +166,7 @@ Some key findings include:
   
   3. On Average the U.S. has decreased its CO2 emissions per MWh of generation by 28% over the last 10 years (2013-2023).
 
+ ![Percentage Change between 2013 and 2023](images/percentage_change.PNG)
 
 
 ## Files
@@ -176,7 +177,7 @@ Some key findings include:
 ### Conclusion
 
 
-Between 2013 and 2022, the U.S. demonstrated a significant 28% reduction in average CO2 emissions per MWh of electricity generation, driven by a shift towards cleaner energy sources. While nuclear power remains a key contributor, states like Vermont, relying solely on renewables, achieved the lowest emissions, contrasting sharply with coal-dependent Wyoming's high emissions. This trend reflects a broader global movement towards decarbonization, with renewables gaining prominence and coal declining.
+Between 2013 and 2023, the U.S. demonstrated a significant 28% reduction in average CO2 emissions per MWh of electricity generation, driven by a shift towards cleaner energy sources. While nuclear power remains a key contributor, states like Vermont, relying solely on renewables, achieved the lowest emissions, contrasting sharply with coal-dependent Wyoming's high emissions. This trend reflects a broader global movement towards decarbonization, with renewables gaining prominence and coal declining.
 
 
 
@@ -186,9 +187,9 @@ Between 2013 and 2022, the U.S. demonstrated a significant 28% reduction in aver
 
 2. Diving deeper into AI and its energy demands.
  
-  - The use of AI is increasing and so are its energy needs. The AI industry is quickly becoming the largest energy consumer on the global scale. Larger companies are looking for energy alternatives, that are both reliable 
-    and sustainable to power the AI data centers. These alternatives the companies are pioneering for, include investing in renewables and being big proponents for nuclear.
+ - The rapid expansion of AI is driving a surge in energy consumption, positioning the industry as a major global power user. To address this, leading tech companies are actively pursuing sustainable and reliable energy 
+    solutions, with significant investments in renewables and a renewed interest in nuclear power.
 
-  - Data analysis could lead to looking into companies who are powering AI and where their energy is coming from. This could help identify if companies are maintaining their carbon objectives.
   
-  - Data analysis could also lead to forecasting the next 30 years of AI consumption and needed energy production. 
+ - Data analysis can enable the assessment of AI companies' energy sources, revealing their adherence to carbon neutrality goals. Furthermore, it can facilitate long-term forecasting of AI's energy consumption and the 
+    required energy production over the next 30 years.
