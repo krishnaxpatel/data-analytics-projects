@@ -19,11 +19,6 @@ The objective of this project was to analyze data between CO2 Emissions per MWh 
 
    
    
-    
-    
- 
-    
-  
 ![Workflow Diagram](images/data_validation.png)
     
  
@@ -34,7 +29,7 @@ The objective of this project was to analyze data between CO2 Emissions per MWh 
 
    1. **Created** the generic dataset for the analysis using SQL.
 
-       - created a table for Energy Production.
+   ![BigQuery Files](images/dataset and table.png)    
      
         
    3. **Converted** all units to the necessary form. 
