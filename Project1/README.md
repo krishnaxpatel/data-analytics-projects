@@ -137,6 +137,8 @@ Some key findings include:
   1. Nuclear Energy is still a key contributor to the overall energy needs in the U.S., accounting for roughly 10%.
 
      - States like Illinois and Virginia mainly rely on nuclear energy as their primary energy source.
+    
+      
   2. Minimum and Maximum States for CO2 Emissions per MWh of Generation:
        
        - Vermont was identified as the state with the lowest CO2 Emission across all years of analysis, mainly due to its energy generation solely from renewables.
