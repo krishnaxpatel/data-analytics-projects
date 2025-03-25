@@ -24,7 +24,7 @@ The objective of this project was to analyze data between CO2 Emissions per MWh 
  
     
   
-![Workflow Diagram](images/Workflow for Data Validation.png)
+![Workflow Diagram](images/data_validation.png)
     
  
   
@@ -35,6 +35,8 @@ The objective of this project was to analyze data between CO2 Emissions per MWh 
    1. **Created** the generic dataset for the analysis using SQL.
 
        - created a table for Energy Production.
+     
+        
    3. **Converted** all units to the necessary form. 
 
        - British Thermal Units (btu) to Megawattshour (MWh)
