@@ -33,8 +33,14 @@ The objective of this project was to analyze data between CO2 Emissions per MWh 
    2. **Aggregated and Grouped** the data using the SUM and AVG function for all energy resources by year and state. Also, converted British Thermal Units to Megawatthour (MWh) for each energy source. 
   
   ![SQL](images/energy_source_per_year_by_state.PNG)
+  
   ![SQL](images/total_energy_source_production_by_year.PNG)
-  ![SQL Results](images/energy_source_per_year_by_state.PNG)  
+
+  **SQL Results**
+  
+  ![SQL Results](images/results_per_year_by state.PNG)  
+
+  ![SQL Results](images/results_by_year.PNG)  
      
    7. **Imported** my tables to Tableau to begin creating Visualizations.
    8. **Created** a dashboard to showcase:
