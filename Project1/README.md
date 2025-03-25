@@ -18,10 +18,13 @@ The objective of this project was to analyze data between CO2 Emissions per MWh 
     Tools Used: Spreadsheets, R, SQl
 
    
-    **Workflow** for my data validation steps:
+   
     
     
-    ![Alt text](other/Workflow for Data Validation.png)
+ 
+    
+  
+![Workflow Diagram](images/Workflow for Data Validation.png)
     
  
   
