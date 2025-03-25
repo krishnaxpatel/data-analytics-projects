@@ -1,0 +1,68 @@
+Year,Census Division and State,Kilograms of CO2 per Megawatthour of Generation
+2022,New England,267
+2022,Connecticut,250
+2022,Maine,219
+2022,Massachusetts,433
+2022,New Hampshire,136
+2022,Rhode Island,377
+2022,Vermont,6
+2022,Middle Atlantic,289
+2022,New Jersey,244
+2022,New York,246
+2022,Pennsylvania,324
+2022,East North Central,481
+2022,Illinois,290
+2022,Indiana,719
+2022,Michigan,498
+2022,Ohio,528
+2022,Wisconsin,538
+2022,West North Central,487
+2022,Iowa,358
+2022,Kansas,384
+2022,Minnesota,379
+2022,Missouri,720
+2022,Nebraska,545
+2022,North Dakota,649
+2022,South Dakota,158
+2022,South Atlantic,369
+2022,Delaware,505
+2022,District of Columbia,397
+2022,Florida,377
+2022,Georgia,346
+2022,Maryland,303
+2022,North Carolina,307
+2022,South Carolina,252
+2022,Virginia,292
+2022,West Virginia,889
+2022,East South Central,448
+2022,Alabama,361
+2022,Kentucky,796
+2022,Mississippi,403
+2022,Tennessee,341
+2022,West South Central,409
+2022,Arkansas,475
+2022,Louisiana,457
+2022,Oklahoma,314
+2022,Texas,406
+2022,Mountain,467
+2022,Arizona,315
+2022,Colorado,512
+2022,Idaho,141
+2022,Montana,504
+2022,Nevada,317
+2022,New Mexico,443
+2022,Utah,667
+2022,Wyoming,833
+2022,Pacific Contiguous,165
+2022,California,219
+2022,Oregon,128
+2022,Washington,92
+2022,Pacific Noncontiguous,625
+2022,Alaska,537
+2022,Hawaii,688
+2022,U.S. Total,390
+"Notes:
+The emissions data presented include total emissions from both electricity generation and the production of useful thermal output.
+See Electric Power Annual, Appendix A, Technical Notes, for a description of the sources and methodology used to develop the emissions estimates.
+Displayed values of zero may represent small values that round to zero. The Excel version of this table provides additional precision which may be accessed by selecting individual cells.
+Sources: U.S. Energy Information Administration, Form EIA-923, Power Plant Operations Report; U.S. Energy Information Administration, Form EIA-860, 'Annual Electric Generator Report'; and calculations made by the Office of Electricity, Renewables, and Uranium Statistics, U.S. Energy Information Administration.",,
