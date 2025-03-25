@@ -18,10 +18,43 @@ The objective of this project was to analyze data between CO2 Emissions per MWh 
     Tools Used: Spreadsheets, R, SQl
 
    
-   
 ![Workflow Diagram](images/data_validation.png)
-    
- 
+
+The original format of the raw data that was downloaded from the EIA database stored data in the wide format. To begin analysis I needed to format the files in the long format for each year and combine them into one data file. This is where R came in handy!
+
+**R Code Used for Merging Energy Production Datasets:**
+
+**Summary of the code:** The code performs a series of data manipulation tasks to combine, clean, and reshape CO2 emissions data from multiple CSV files, resulting in a merged and reshaped format for thedataset.
+
+First, we will install and load in the necessary packages in R. Then we will create a vector that contains the years from 2013 to 2023, which represents our data files. 
+We will need to also create an empty list where our dfs will be stored once our CSV files are read. The **for loop** is then used to iterate through every year in the "years" vector. The CSV files are read and put into a df named data. The dplyr function **rename()** changes the original CO2 column name to the shorter, year specific name. 
+
+
+
+![R Code for Merging & Formatting](images/step1.png)
+
+
+
+I then need to merge the data frames for each year. The code starts off with the data from the first year and creates a new df. The **for loop** is then used to iterate through the remaining years. The **inner join** function then merges the current co2_emissions_by_year df with the df for the current year, based on the common column "Census.Division.and.State". This combines the data from all years into one single wide data frame.
+
+I used **mutate()** to extract the state name and added "[A-Za-z ]+$" to make sure all state names remained the same, which included the spaces (e.g. "New Hampshire", "New Jersey", etc.)
+
+
+Since I no longer need the original "Census.Division.and.State" and "Year" columns, I removed them. 
+
+
+Now I need to format the data from wide to long where the years are my rows. 
+Pivot_longer() was used to reshape the data, where I specified columns starting with "CO2_" were to be pivoted. I created new "year" and "Kilograms of CO2 per MWh" columns containing the values. Mutate() was then used to remove "CO2_" prefix from the "Year" column. I then
+
+![R Code for Merging & Formatting](images/step2.PNG)
+
+
+**Results for R:**
+
+![Results for Merging & Formatting](images/merged_data.PNG)
+
+Note: extra columns that resulted from the original code were removed in spreadsheets
+
   
    ### **Analysis**:
    
@@ -35,13 +68,20 @@ The objective of this project was to analyze data between CO2 Emissions per MWh 
   ![SQL](images/energy_source_per_year_by_state.PNG)
   
   ![SQL](images/total_energy_source_production_by_year.PNG)
-
+  
+  
   **SQL Results**
   
-  ![SQL Results](images/results_per_year_by state.PNG)  
+  ![SQL Results](images/results_per_year_by_state.PNG)  
 
   ![SQL Results](images/results_by_year.PNG)  
-     
+
+  
+  **Used later analysis:**
+  
+  ![average emission](images/average_emission.PNG)
+
+    
    7. **Imported** my tables to Tableau to begin creating Visualizations.
    8. **Created** a dashboard to showcase:
 
