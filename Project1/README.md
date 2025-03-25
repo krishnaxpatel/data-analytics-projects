@@ -16,39 +16,7 @@ The objective of this project was to analyze data between CO2 Emissions per MWh 
     Energy Production: https://www.eia.gov/state/seds/seds-data-complete.php#Production
     
     Tools Used: Spreadsheets, R, SQl
- 1. Kg of Carbon Emissions: https://www.eia.gov/electricity/data/emissions/
-      
-      - **Downloaded** all relevant datasets (`Project1/data/`).
-      - **Cleared** Formatting.
-      - **Cleaned** the dataset by handling missing values, trimmed whitespaces, removed irrelevant data and outliers.
-      - **Merged** datasets from years 2013-2023 using dyplr R (`Project1/notebook/`)
-      - **Formatted** data from wide to long for all years and states using tidyr in R (`Project1/notebook/`)
-      - **Exported** the table to spreadsheets to delete irrelevant added columns.
 
-    Data now ready for use!
- 
- 2. Carbon Emissions (million metric tons): https://www.eia.gov/environment/emissions/state/
-    Data Limitations: Only had data up until 2022. Could not perform 2023 calculations because of this. 
-     
-      - **Downloaded** dataset.
-      - **Cleared** Formatting.
-      - **Cleaned** the dataset by handling missing values, trimmed whitespaces, removed irrelevant data and outliers.
-           - for this particular dataset I removed the data for 1970-2012 as it wasn't needed for my analysis.
-      - **Converted** from wide to long format using R (`Project1/notebook/`)
-    
-    Data now ready for use!
- 
-  3. Energy Production (renewables & total energy, fossil fuels & nuclear): https://www.eia.gov/state/seds/seds-data- 
-       complete.php#Production
-      - **Downloaded** datasets in btu (renewables & total energy, fossil fuels & nuclear).
-      - **Cleared** Formatting.
-      - **Cleaned** the dataset by handling missing values, trimmed whitespaces, removed irrelevant data and outliers.
-      - **Converted** from wide to long format using R (`Project1/notebook/`)
-
-         - created a generic code to help me with formatting that I can use for all the data in this step.
-      - **Created** a new spreadsheet and merged all data into one with column names.
-
-      Data now ready for use!
 
  
   
