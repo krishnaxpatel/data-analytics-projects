@@ -4,14 +4,52 @@ Welcome to my data analytics portfolio! Here you will find some of the projects 
 
 ## Projects
 
-### [Project 1: Energy Analysis](./Project1)
-In this project, I performed an analysis on CO2 emissions, energy production, and energy resource distribution in the United States between 2013-2022. The tools used: SQL, R, Spreadsheets, & Tableau. 
+## [Project 1: Energy Analysis](./Project1)
 
-### [Project 2: Sleep & Health](./Project2)
-This project involved analyzing the trends between sleep and health. The analysis was done using SQL, Spreadsheets & Tableau. 
+### Objective
 
-## About Me
+To determine if overall CO2 emissions are decreasing and its key contributing factors. 
 
-I am a process engineer and data analyst with a passion for uncovering insights from data and solving complex problems. I have experience in various data analytics tools and techniques, including SQL, Tableau, & R.
+### Description
 
-Feel free to explore the projects and reach out if you have any questions or collaboration opportunities!
+The project focused on analyzing datasets for CO2 Emissions and Energy Source Production for the years 2013-2023 in the U.S. The datasets included Kilograms (kg) of CO2 Emissions per Megawatthour (MWh) of generation, CO2 emissions (million metric tons), and various energy production sources (Renewables, Crude Oil, Natural Gas, Nuclear & Coal) for every state and the years of analysis. The project involved collecting the data, cleaning it, executing exploratory data analysis (EDA), analyzing the trends between the different sources of energy production and CO2 emissions, and drawing up conclusions that are consistent with industry trends.  
+
+### Skills
+
+Data cleaning and validation
+
+Data Analysis
+
+Statistical Analysis 
+
+Data Visualization
+
+### Tools Used
+
+R (dplyr and tidyr), Spreadsheets, SQL, Tableau
+
+
+## [Project 2: Sleep & Health](./Project2)
+
+
+### Objective
+
+To determine the principal factors influencing wellness through the analysis of wearable technology data.
+
+### Description
+
+The project focused on analyzing datasets from Kaggle involving sleep and wellness determined by smart device metrics. The project consisted of loading raw data, performing data validation, implementing EDA, and analyzing the trends between health metrics and sleep. 
+
+### Skills
+
+Data cleaning and validation
+
+Data Analysis
+
+Statistical Analysis 
+
+Data Visualization
+
+### Tools Used
+
+R, Spreadsheets, SQL, Tableau
