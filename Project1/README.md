@@ -141,9 +141,18 @@ Some key findings include:
 ![Overall Energy Production from Various Sources](images/nuclear_energy_percentage.PNG)
     
      
-     - States like Illinois and Virginia mainly rely on nuclear energy as their primary energy source.
+   - States like Illinois and Virginia mainly rely on nuclear energy as their primary energy source.
+   **Illinois**
+
     
-      
+   ![Energy Production in Illinois](images/illinois_nuclear_energy.PNG)
+
+
+  **Virginia**
+
+
+  
+   
   2. Minimum and Maximum States for CO2 Emissions per MWh of Generation:
        
        - Vermont was identified as the state with the lowest CO2 Emission across all years of analysis, mainly due to its energy generation solely from renewables.
