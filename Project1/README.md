@@ -20,11 +20,11 @@ The objective of this project was to analyze data between CO2 Emissions per MWh 
    
 ![Workflow Diagram](images/data_validation.png)
 
-The original format of the raw data that was downloaded from the EIA database stored data in the wide format. To begin analysis I needed to format the files in the long format for each year and combine them into one data file. This is where R came in handy!
+The original format of the raw data that was downloaded from the EIA database stored data in the wide format and were all in separate data files. To begin analysis I needed to merge the data files for each year and then format the files from wide to long. This is where R came in handy!
 
-**R Code Used for Merging Energy Production Datasets:**
+**R Code Used for Merging and Formatting the CO2 Emissions Data files:**
 
-**Summary of the code:** The code performs a series of data manipulation tasks to combine, clean, and reshape CO2 emissions data from multiple CSV files, resulting in a merged and reshaped format for thedataset.
+**Code Summary:** The code performs a series of data manipulation tasks to combine, clean, and reshape CO2 emissions data from multiple CSV files, resulting in a merged and reshaped format for the dataset.
 
 First, we will install and load in the necessary packages in R. Then we will create a vector that contains the years from 2013 to 2023, which represents our data files. 
 We will need to also create an empty list where our dfs will be stored once our CSV files are read. The **for loop** is then used to iterate through every year in the "years" vector. The CSV files are read and put into a df named data. The dplyr function **rename()** changes the original CO2 column name to the shorter, year specific name. 
@@ -40,22 +40,47 @@ I then need to merge the data frames for each year. The code starts off with the
 I used **mutate()** to extract the state name and added "[A-Za-z ]+$" to make sure all state names remained the same, which included the spaces (e.g. "New Hampshire", "New Jersey", etc.)
 
 
-Since I no longer need the original "Census.Division.and.State" and "Year" columns, I removed them. 
+The original "Census.Division.and.State" and "Year" columns were no longer needed.
 
 
 Now I need to format the data from wide to long where the years are my rows. 
-Pivot_longer() was used to reshape the data, where I specified columns starting with "CO2_" were to be pivoted. I created new "year" and "Kilograms of CO2 per MWh" columns containing the values. Mutate() was then used to remove "CO2_" prefix from the "Year" column. I then
+Pivot_longer() was used to reshape the data, where I specified columns starting with "CO2_" were to be pivoted. I created new "year" and "Kilograms of CO2 per MWh" columns containing the values. Mutate() was then used to remove "CO2_" prefix from the "Year" column. 
 
 ![R Code for Merging & Formatting](images/step2.PNG)
 
 
-**Results for R:**
+I viewed the data and exported the table for analysis. 
+
+(Note: extra columns that resulted from the original code were removed in spreadsheets)
+
+
+![R Code for Merging & Formatting](images/step_3.PNG)
+
+
+**R Results for the CO2 Emissions Data files:**
 
 ![Results for Merging & Formatting](images/merged_data.PNG)
 
-Note: extra columns that resulted from the original code were removed in spreadsheets
 
+
+**R Code Used for formatting (wide to long) for the Energy Production Data Files:**
+
+**Code Summary:** This generic code performs a series of data manipulation tasks to reshape Energy Production data.
+
+
+(Renewable Energy Data File shown as example)
+
+
+![Formatting Energy Production Data Files](images/format_code_1.PNG)
+
+
+![Formatting Energy Production Data Files](images/format_code_2.PNG)
+
+
+All the Energy Production files were exported and merged in a spreadsheet.
   
+ 
+   
    ### **Analysis**:
    
    Tools Used: SQL & Tableau
@@ -63,34 +88,46 @@ Note: extra columns that resulted from the original code were removed in spreads
    1. **Created** the generic dataset and table for the analysis using SQL.
         
   
-   2. **Aggregated and Grouped** the data using the SUM and AVG function for all energy resources by year and state. Also, converted British Thermal Units to Megawatthour (MWh) for each energy source. 
-  
+   2. **Aggregated and Grouped** the data using the SUM and AVG function for all energy resources by year and state. Also, converted British Thermal Units to Megawatthour (MWh) for each energy source.
+
+ 
   ![SQL](images/energy_source_per_year_by_state.PNG)
   
+ 
   ![SQL](images/total_energy_source_production_by_year.PNG)
   
   
   **SQL Results**
+
+  These results give the total amount of Enery Production of all sources per year for every state.
   
   ![SQL Results](images/results_per_year_by_state.PNG)  
 
+  These results give the total amount of Energy Production of all Sources Per Year.
+  
   ![SQL Results](images/results_by_year.PNG)  
 
-  
-  **Used later analysis:**
+
+  This gives the average emission per year to find the percentage change of Kg of CO2 per MWh between 2013 to 2023, which was calculated to be 28%. 
   
   ![average emission](images/average_emission.PNG)
-
-    
-   7. **Imported** my tables to Tableau to begin creating Visualizations.
-   8. **Created** a dashboard to showcase:
+   
+  
+   
+   3. **Imported** my datasources to Tableau to begin creating Visualizations.
+   
+   
+   
+   
+   4. **Created** a dashboard to showcase:
 
        - CO2 emissions over time for the past 10 years by each state.
 
        - Total Energy Resource Distribution by state.
 
        - CO2 Emissions and Energy Resource Distribution
-
+         
+[View my Tableau Dashboard Here!](https://public.tableau.com/views/EnergyEmissions_17426711319470/EnergyEmissions?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 ### Results
    
 Analysis helped identify an overall decrease in average CO2 emissions per MWh of electricity generation across all 50 states between 2013-2023. This indicates that we are supplying our increased energy needs with cleaner resources. This is strongly due to a transition in global standards to reduce our carbon footprint. Industries, like renewables, have played a bigger role in our energy supply, while overall coal reliance has been on the downfall.
