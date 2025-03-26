@@ -40,22 +40,28 @@ I then plotted average physical activity and quality of sleep. I noticed that in
 ![Physical Activity and Quality of Sleep](images/physical_activity_vs_quality_of_sleep.PNG)
 
 
-My thought process shifted then to other physical activity factors, such as heart rate and blood pressure. 
+My thought process shifted then to other physical activity factors, such as heart rate, blood pressure, weight, and sleep disorders. 
 
 The questions that arose:
 
 1. Does heart rate increase with higher stress levels?
 2. Does higher blood pressure indicate higher heart rates?
-3. Do heart rate and blood pressure both play a factor in increased stress levels, which can cause poorer quality of sleep?
+
 
 I believed the best way to answer the first question was to create another scatter plot to see the relationship.
 
 ![Avg. Heart Rate vs. Avg. Stress Levels](images/heart_rate_v_stress_levels.PNG)
 
 
-To answer the second question, I wanted to find out the R value between heart rate and blood pressure. I used R to do so. 
+To answer the second question, I wanted to find out the Pearson's correlation coefficient (r) value and p-value between heart rate and blood pressure. I used R to do so.
 
 ![Pearson's Correlation Coefficient](images/Rcode/r_coefficient_heart_rate_and_blood_pressure.PNG)
+
+
+
+The next step in the process was 
+
+
 
 
 ### Results
