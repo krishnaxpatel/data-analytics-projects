@@ -28,6 +28,10 @@ First, I wanted to aggregate the data to find the averages of key health metrics
 ![Aggregation of Data](images/physical_activity_trends_by_occupation_results.PNG)
 
 
+I did the same for people with Sleep Disorders and without to use later in the analysis. 
+
+
+
 
 I then used Tableau and R for further analysis. 
 
