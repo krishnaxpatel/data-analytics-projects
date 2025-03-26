@@ -2,7 +2,7 @@
 
 ## Business Objective
 
-To identify key lifestyle factors and demographic segments that significantly impact sleep quality, stress levels, and overall wellness within the population represented in the dataset, and to develop actionable recommendations for targeted wellness programs or interventions aimed at improving sleep health and reducing stress.
+To identify key lifestyle factors that significantly impact sleep quality, stress levels, and overall wellness within the population represented in the dataset, and to develop actionable recommendations for targeted wellness programs or interventions aimed at improving sleep health and reducing stress.
 
 ### Data Preprocessing & Processing
 
