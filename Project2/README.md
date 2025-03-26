@@ -1,8 +1,8 @@
-# Project 2: Sleep & Wellness
+# Project 2: Sleep Health & Wellness
 
 ## Business Objective
 
-To identify key lifestyle factors and demographic segments that significantly impact sleep quality and stress levels within the population represented in the dataset, and to develop actionable recommendations for targeted wellness programs or interventions aimed at improving sleep health and reducing stress.
+To identify key lifestyle factors and demographic segments that significantly impact sleep quality, stress levels, and overall wellness within the population represented in the dataset, and to develop actionable recommendations for targeted wellness programs or interventions aimed at improving sleep health and reducing stress.
 
 ### Data Preprocessing & Processing
 
@@ -50,6 +50,12 @@ The questions that arose:
 
 I believed the best way to answer the first question was to create another scatter plot to see the relationship.
 
+![Avg. Heart Rate vs. Avg. Stress Levels](images/heart_rate_v_stress_levels.PNG)
+
+
+To answer the second question, I wanted to find out the R value between heart rate and blood pressure. I used R to do so. 
+
+![Pearson's Correlation Coefficient](images/Rcode/r_coefficient_heart_rate_and_blood_pressure.PNG)
 
 
 ### Results
