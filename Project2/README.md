@@ -79,7 +79,7 @@ To answer the second question, I wanted to find out the Pearson's correlation co
 
 
 
-The next step in the process was to see if any
+The next step in the process was to see if sleep disorders prevented people in certain occupations from getting good quality sleep compared to people with no sleep disorders. 
 
 
 
