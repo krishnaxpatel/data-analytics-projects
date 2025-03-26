@@ -15,7 +15,7 @@ Note: Data was collected from this [Kaggle Dataset](https://www.kaggle.com/datas
 
 ### Data Analysis 
 
-**Tools Used:** SQL, Tableau
+**Tools Used:** SQL, R, Tableau
 
 First, I wanted to aggregate the data to find the averages of key health metrics using SQL. 
 
@@ -31,9 +31,25 @@ First, I wanted to aggregate the data to find the averages of key health metrics
 
 I then used Tableau for further analysis. 
 
-Using a scatter plot, I plotted average quality of sleep vs. average stress levels to see if there was any relationship between the two. 
+Using a scatter plot, I plotted average quality of sleep vs. average stress levels by occupation to see if there was any relationship between the two depending on the occupation. Initial thoughts included seeing an inverse relationship, meaning increased quality of sleep led to decreased stress levels. 
 
-![Quality of Sleep vs. Stress Levels](images/physical_activity_trends_by_occupation_results.PNG)
+![Quality of Sleep vs. Stress Levels](images/avg_quality_of_sleep_v_avg_stress_levels.PNG)
+
+I then plotted average physical activity and quality of sleep. I noticed that increased physical activity generally led to increased quality of sleep.
+
+![Physical Activity and Quality of Sleep](images/physical_activity_vs_quality_of_sleep.PNG)
+
+
+My thought process shifted then to other physical activity factors, such as heart rate and blood pressure. 
+
+The questions that arose:
+
+1. Does heart rate increase with higher stress levels?
+2. Does higher blood pressure indicate higher heart rates?
+3. Do heart rate and blood pressure both play a factor in increased stress levels, which can cause poorer quality of sleep?
+
+I believed the best way to answer the first question was to create another scatter plot to see the relationship.
+
 
 
 ### Results
