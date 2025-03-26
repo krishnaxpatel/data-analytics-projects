@@ -44,7 +44,7 @@ My thought process shifted then to other physical activity factors, such as hear
 
 The questions that arose:
 
-1. Does heart rate increase with higher stress levels?
+1. Does heart rate increase with higher stress levels depending on the occupation?
 2. Does higher blood pressure indicate higher heart rates?
 
 
@@ -58,8 +58,15 @@ To answer the second question, I wanted to find out the Pearson's correlation co
 ![Pearson's Correlation Coefficient](images/Rcode/r_coefficient_heart_rate_and_blood_pressure.PNG)
 
 
+![P-Value for Heart Rate and Systolic Blood Pressure](images/Rcode/pvalue_systolic.PNG)
 
-The next step in the process was 
+
+![P-Value for Heart Rate and Systolic Blood Pressure](images/Rcode/pvalue_diastolic.PNG)
+
+
+
+
+The next step in the process was to see if any
 
 
 
