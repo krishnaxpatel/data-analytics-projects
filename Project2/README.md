@@ -17,7 +17,7 @@ Note: Data was collected from this [Kaggle Dataset](https://www.kaggle.com/datas
 
 **Tools Used:** SQL, R, Tableau
 
-First, I wanted to aggregate the data to find the averages of key health metrics using SQL. 
+First, I wanted to aggregate the data to find the averages of key health metrics using SQL, specifically for the various occupations in the dataset.  
 
 
 
@@ -29,9 +29,13 @@ First, I wanted to aggregate the data to find the averages of key health metrics
 
 
 
-I then used Tableau for further analysis. 
+I then used Tableau and R for further analysis. 
 
-Using a scatter plot, I plotted average quality of sleep vs. average stress levels by occupation to see if there was any relationship between the two depending on the occupation. Initial thoughts included seeing an inverse relationship, meaning increased quality of sleep led to decreased stress levels. 
+
+**I explored the data by occupation first:**
+
+
+Using a scatter plot, I plotted average quality of sleep vs. average stress levels to see if there was any relationship between the two depending on the occupation. Initial thoughts included seeing an inverse relationship, meaning increased quality of sleep led to decreased stress levels. 
 
 ![Quality of Sleep vs. Stress Levels](images/avg_quality_of_sleep_v_avg_stress_levels.PNG)
 
@@ -40,12 +44,12 @@ I then plotted average physical activity and quality of sleep. I noticed that in
 ![Physical Activity and Quality of Sleep](images/physical_activity_vs_quality_of_sleep.PNG)
 
 
-My thought process shifted then to other physical activity factors, such as heart rate, blood pressure, weight, and sleep disorders. 
+My thought process shifted then to other lifestyle, such as heart rate, blood pressure, weight, and sleep disorders. 
 
 The questions that arose:
 
 1. Does heart rate increase with higher stress levels depending on the occupation?
-2. Does higher blood pressure indicate higher heart rates?
+2. Does higher blood pressure indicate higher heart rates depending on the occupation?
 
 
 I believed the best way to answer the first question was to create another scatter plot to see the relationship.
