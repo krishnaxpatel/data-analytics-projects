@@ -29,18 +29,13 @@ First, I wanted to aggregate the data to find the averages of key health metrics
 
 
 
-I did the same for people with Sleep Disorders and without to use later in the analysis. The highlighted "True" was changed to "False" to get the results for people without any sleep disorders.
+I did the same for people with Sleep Disorders and without to use later in the analysis. 
 
-
-
-![Aggregation of Data by Sleep Disorder](images/SQL_code/sleep_disorder_aggregation.PNG)
 
 
 
 I then used Tableau and R for further analysis. 
 
-
-**I explored the data by occupation first:**
 
 
 Using a scatter plot, I plotted average quality of sleep vs. average stress levels to see if there was any relationship between the two depending on the occupation. Initial thoughts included seeing an inverse relationship, meaning increased quality of sleep led to decreased stress levels. 
@@ -77,11 +72,11 @@ I used the independent samples t-test.
 
 ![R code for performing the t-test](images/Rcode/r_code_for_t_test.png)
 
-
+Since the p-value was <0.05 between stress levels of people with and without sleep disorders, meaning there was a statistical significant difference between the two.  
 
 ### Results
 
-**Based on Occupation:**
+
 
 1. There is an inverse relationship between average quality of sleep and average stress levels. Meaning as quality of sleep increases the level of stress decreases. R² is 0.79497, representing a reasonably strong relationship between sleep quality and stress levels.
 
@@ -91,7 +86,7 @@ I used the independent samples t-test.
     - R² value: 0.542564
     
 
-4. Heart rate has a weak to moderate positive correlation with both systolic and diastolic blood pressure. This suggests that there's a slight tendency for blood pressure to increase with heart rate, but the relationship is not very strong. The p-value between systolic and diastolic pressure was 0.972 confirming the physiological relationship between the two.
+3. Heart rate has a weak to moderate positive correlation with both systolic and diastolic blood pressure. This suggests that there's a slight tendency for blood pressure to increase with heart rate, but the relationship is not very strong. The p-value between systolic and diastolic pressure was 0.972 confirming the physiological relationship between the two.
 
     **Heart rate and systolic pressure:**
    
@@ -113,21 +108,24 @@ I used the independent samples t-test.
 ![P-Value for Heart Rate and Systolic Blood Pressure](images/Rcode/pvalue_diastolic.PNG)
 
 
-5. The results from t-test showed that the p-value was <0.05, which means there is a statistically significant difference in stress levels between the two groups (people with and without sleep disorders). The negative t-statistic suggests that the group with sleep disorders has a higher average stress level compared to the group without sleep disorders.
+4. The results from t-test showed that the p-value was <0.05, which means there is a statistically significant difference in stress levels between the two groups (people with and without sleep disorders). The negative t-statistic suggests that the group with sleep disorders has a higher average stress level compared to the group without sleep disorders.
 
     t-test results for comparing stress levels between the two groups
 
     ![R code results performing the t-test for stress levels](images/Rcode/t_test_results_for_stress.png)
 
 
-For quality of sleep between the two groups, the results showed that since the p-value was >0.05, there is **not** a statistically significant difference in sleep quality between the two groups at the 0.05 alpha level. However, it is also important to note that if analysis was done on a larger dataset, a statistically significant difference may have existed between the two groups.
+5. For quality of sleep between the two groups, the results showed that since the p-value was >0.05, there is **not** a statistically significant difference in sleep quality between the two groups at the 0.05 alpha level. However, it is also important to note that if analysis was done on a larger dataset, a statistically significant difference may have existed between the two groups.
 
     t-test results for comparing quality of sleep between the two groups
 
    ![R code results performing the t-test for quality of sleep](images/Rcode/t_test_results_for_sleep_quality.png)
 
 
-   
+### Conclusions
+
+Occupations like sales representatives, scientists, and doctors, which often involve high-pressure environments, are associated with elevated stress levels and reduced sleep quality. In contrast, professions such as nursing, law, and engineering, while demanding, show a trend towards lower stress and improved sleep quality. This suggests that the nature of certain professions may inherently contribute to stress and sleep disturbances, highlighting the need for targeted interventions to promote well-being.
 
 
+Occupations such as sales representatives and scientists tend to exhibit lower levels of physical activity and poorer quality of sleep. In contrast, professions like nursing and law demonstrate higher levels of physical activity and better quality of sleep. This pattern suggests a potential link between physical activity and sleep quality, emphasizing the importance of promoting active lifestyles for improved sleep.
  
