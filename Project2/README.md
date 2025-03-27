@@ -31,7 +31,7 @@ First, I wanted to aggregate the data to find the averages of key health metrics
 
 I did the same for people with Sleep Disorders and without to use later in the analysis. 
 
-
+![Aggregation of Data by Occupation](images/SQL_code/by_sleep_disorder.png)
 
 
 I then used Tableau and R for further analysis. 
@@ -47,11 +47,11 @@ I then plotted average physical activity and quality of sleep. I noticed that in
 ![Physical Activity and Quality of Sleep](images/physical_activity_vs_quality_of_sleep.PNG)
 
 
-My thought process shifted then to other health and lifestyle factors, such as heart rate, blood pressure, daily steps and sleep disorders. 
+My thought process shifted then to other health and lifestyle factors, such as heart rate, blood pressure, and sleep disorders. 
 
 The questions that arose:
 
-1. Does heart rate increase with higher stress levels depending on the occupation?
+1. Does heart rate increase with higher stress levels?
 
 2. Does higher blood pressure indicate higher heart rate based on occupation?
 
@@ -84,9 +84,20 @@ Since the p-value was <0.05 between stress levels of people with and without sle
 
     - p-value: 0.0097255
     - R² value: 0.542564
-    
 
-3. Heart rate has a weak to moderate positive correlation with both systolic and diastolic blood pressure. This suggests that there's a slight tendency for blood pressure to increase with heart rate, but the relationship is not very strong. The p-value between systolic and diastolic pressure was 0.972 confirming the physiological relationship between the two.
+3. The regression equation indicates a positive linear relationship between average heart rate and average stress level. This means that as average heart rate increases, average stress level also tends to increase.
+
+Avg Stress Level = 0.174426 * Avg Heart Rate + -6.83985
+
+    - p-value: 0.00526
+    - R² value: 0.59772
+
+The R-squared value suggests a moderately strong relationship. 
+
+The p-value is statistically significant (p < 0.05). This means that the observed relationship between heart rate and stress level is unlikely to have occurred by chance. In other words, there is a statistically significant association between average heart rate and average stress levels.
+
+
+4. Heart rate has a weak to moderate positive correlation with both systolic and diastolic blood pressure. This suggests that there's a slight tendency for blood pressure to increase with heart rate, but the relationship is not very strong. The p-value between systolic and diastolic pressure was 0.972 confirming the physiological relationship between the two.
 
     **Heart rate and systolic pressure:**
    
@@ -108,14 +119,14 @@ Since the p-value was <0.05 between stress levels of people with and without sle
 ![P-Value for Heart Rate and Systolic Blood Pressure](images/Rcode/pvalue_diastolic.PNG)
 
 
-4. The results from t-test showed that the p-value was <0.05, which means there is a statistically significant difference in stress levels between the two groups (people with and without sleep disorders). The negative t-statistic suggests that the group with sleep disorders has a higher average stress level compared to the group without sleep disorders.
+5. The results from t-test showed that the p-value was <0.05, which means there is a statistically significant difference in stress levels between the two groups (people with and without sleep disorders). The negative t-statistic suggests that the group with sleep disorders has a higher average stress level compared to the group without sleep disorders.
 
     t-test results for comparing stress levels between the two groups
 
     ![R code results performing the t-test for stress levels](images/Rcode/t_test_results_for_stress.png)
 
 
-5. For quality of sleep between the two groups, the results showed that since the p-value was >0.05, there is **not** a statistically significant difference in sleep quality between the two groups at the 0.05 alpha level. However, it is also important to note that if analysis was done on a larger dataset, a statistically significant difference may have existed between the two groups.
+6. For quality of sleep between the two groups, the results showed that since the p-value was >0.05, there is **not** a statistically significant difference in sleep quality between the two groups at the 0.05 alpha level. However, it is also important to note that if analysis was done on a larger dataset, a statistically significant difference may have existed between the two groups.
 
     t-test results for comparing quality of sleep between the two groups
 
@@ -129,3 +140,20 @@ Occupations like sales representatives, scientists, and doctors, which often inv
 
 Occupations such as sales representatives and scientists tend to exhibit lower levels of physical activity and poorer quality of sleep. In contrast, professions like nursing and law demonstrate higher levels of physical activity and better quality of sleep. This pattern suggests a potential link between physical activity and sleep quality, emphasizing the importance of promoting active lifestyles for improved sleep.
  
+
+The observed higher average heart rates among sales representatives and scientists, coupled with their reported increased stress levels, contrasts with the lower average heart rates seen in teachers, engineers, and accountants. This pattern highlights the potential physiological impact of stress in certain occupations and warrants further exploration of stress-reduction strategies.
+
+People with sleep disorders showed significantly elevated stress levels compared to those without (p < 0.05), indicating a strong association between sleep disorders and increased stress.
+
+## Actionable Recommendations for Wellness Programs
+
+1. Companies could support employees by educating them on the impact of diet and habits of sleep. This can increase the amount of employees who now have knowledge about the importance of getting good quality sleep and how diet plays a factor in this. 
+
+2. Companies can also offer a variety of physical activity options, including on-site fitness facilities, gym partnerships, collaborative 'field days,' and work sports teams/tournaments, to encourage regular exercise and promote engagement across departments.
+
+3. We can also implement stress management programs, that foster a "no judgement" zone for employees suffering from increased stress. This can include, meditation workshops, time management and organizational skills trainings, as well as counseling or support groups. This can give access to resources for employees to improve their stress levels and overall wellness.
+
+
+Further Data Exploration:
+
+If I had more time and resources for this project I would have wanted to analyze data that directly related to performance levels of the listed employees. This would have enhanced my analysis and I would have constructed more specialized programs to increase performance if results were low. 
