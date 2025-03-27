@@ -52,13 +52,13 @@ I then plotted average physical activity and quality of sleep. I noticed that in
 ![Physical Activity and Quality of Sleep](images/physical_activity_vs_quality_of_sleep.PNG)
 
 
-My thought process shifted then to other lifestyle factors, such as heart rate, blood pressure, daily steps and sleep disorders. 
+My thought process shifted then to other health and lifestyle factors, such as heart rate, blood pressure, daily steps and sleep disorders. 
 
 The questions that arose:
 
 1. Does heart rate increase with higher stress levels depending on the occupation?
 
-2. Does higher blood pressure indicate higher heart rates based on occupation?
+2. Does higher blood pressure indicate higher heart rate based on occupation?
 
 
 I believed the best way to answer the first question was to create another scatter plot to see the relationship.
@@ -79,7 +79,13 @@ To answer the second question, I wanted to find out the Pearson's correlation co
 
 
 
-The next step in the process was to see if sleep disorders prevented people in certain occupations from getting good quality sleep compared to people with no sleep disorders. 
+The next step in the process was to see if there was a statistical significance between stress levels for people with a sleeping disorder and people without. 
+
+I used the independent samples t-test. 
+
+
+
+
 
 
 
