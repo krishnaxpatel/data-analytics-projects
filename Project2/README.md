@@ -1,4 +1,4 @@
-# Project 2: Sleep Health & Wellness (WIP)
+# Project 2: Sleep Health & Wellness 
 
 ## Business Objective
 
@@ -71,22 +71,11 @@ To answer the second question, I wanted to find out the Pearson's correlation co
 ![Pearson's Correlation Coefficient](images/Rcode/r_coefficient_heart_rate_and_blood_pressure.PNG)
 
 
-![P-Value for Heart Rate and Systolic Blood Pressure](images/Rcode/pvalue_systolic.PNG)
-
-
-![P-Value for Heart Rate and Systolic Blood Pressure](images/Rcode/pvalue_diastolic.PNG)
-
-
-
-
-The next step in the process was to see if there was a statistical significance between stress levels for people with a sleeping disorder and people without. 
+The next step in the process was to see if there was a statistical significance between stress levels and quality of sleep for people with a sleeping disorder versus without. 
 
 I used the independent samples t-test. 
 
-
-
-
-
+![R code for performing the t-test](images/Rcode/r_code_for_t_test.png)
 
 
 
@@ -104,19 +93,39 @@ I used the independent samples t-test.
 
 4. Heart rate has a weak to moderate positive correlation with both systolic and diastolic blood pressure. This suggests that there's a slight tendency for blood pressure to increase with heart rate, but the relationship is not very strong. The p-value between systolic and diastolic pressure was 0.972 confirming the physiological relationship between the two.
 
-   Heart rate and systolic pressure:
+    **Heart rate and systolic pressure:**
    
-    - Pearson's coefficient:  0.477
+       - Pearson's coefficient: 0.477
   
-    - p-value: 0.138 (no statistically significant linear relationship between these two variables in the dataset based on occupation)
-  
-   Heart rate and diastolic pressure:
+       - p-value: 0.138 (no statistically significant linear relationship between these two variables in the dataset based 
+         on occupation)
+
+![P-Value for Heart Rate and Systolic Blood Pressure](images/Rcode/pvalue_systolic.PNG)
+
+
+   **Heart rate and diastolic pressure:**
 
     - Pearson's coefficient: 0.369
   
-    - p-value: 0.264 (no statistically significant linear relationship between these two variables in the dataset based on occupation)
+    - p-value: 0.264 (no statistically significant linear relationship between these two variables in the dataset based on 
+      occupation)
 
-   
+![P-Value for Heart Rate and Systolic Blood Pressure](images/Rcode/pvalue_diastolic.PNG)
+
+
+5. The results from t-test showed that the p-value was <0.05, which means there is a statistically significant difference in stress levels between the two groups (people with and without sleep disorders). The negative t-statistic suggests that the group with sleep disorders has a higher average stress level compared to the group without sleep disorders.
+
+    t-test results for comparing stress levels between the two groups
+
+    ![R code results performing the t-test for stress levels](images/Rcode/t_test_results_for_stress.png)
+
+
+For quality of sleep between the two groups, the results showed that since the p-value was >0.05, there is **not** a statistically significant difference in sleep quality between the two groups at the 0.05 alpha level. However, it is also important to note that if analysis was done on a larger dataset, a statistically significant difference may have existed between the two groups.
+
+    t-test results for comparing quality of sleep between the two groups
+
+   ![R code results performing the t-test for quality of sleep](images/Rcode/t_test_results_for_sleep_quality.png)
+
 
    
 
